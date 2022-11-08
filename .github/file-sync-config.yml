@@ -1,0 +1,3 @@
+GangWang01/ExperimentTarget:
+  - source: eng/dependabot/Packages.props
+    dest: eng/Packages.props
