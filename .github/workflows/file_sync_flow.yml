@@ -14,7 +14,6 @@ jobs:
         uses: BetaHuhn/repo-file-sync-action@v1
         with:
           GH_PAT: ${{ secrets.TOKEN_FILESYNC }}
-          FORK: GangWang01
           BRANCH_PREFIX: FileSync
           ORIGINAL_MESSAGE: true
           COMMIT_AS_PR_TITLE: true
