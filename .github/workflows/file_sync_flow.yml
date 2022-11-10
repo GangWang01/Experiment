@@ -16,6 +16,7 @@ jobs:
           GH_PAT: ${{ secrets.TOKEN_FILESYNC }}
           FORK: GangWang01
           BRANCH_PREFIX: FileSync
+          COMMIT_PREFIX: Sync file at ${ Date.now().toString() }
           COMMIT_BODY: "Update file from source repo"
           PR_BODY: This is your custom PR Body
           PR_LABELS: |
