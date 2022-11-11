@@ -9,5 +9,6 @@
     <!--Update after the first sync was merged into target repo-->
     <!--Test in target repo the branch used to commit is behind main branch -->
     <!--Sync through forked repo at the first round-->
+    <!--Sync through forked repo at the second round-->
   </ItemGroup>
 </Project>
