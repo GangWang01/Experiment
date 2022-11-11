@@ -1,4 +1,4 @@
-name: Sync Files
+name: Sync Files with fork repo
 on:
   push:
     branches:
@@ -14,7 +14,8 @@ jobs:
         uses: BetaHuhn/repo-file-sync-action@v1
         with:
           GH_PAT: ${{ secrets.TOKEN_FILESYNC }}
-          BRANCH_PREFIX: FileSync
+          FORK: GangWang01
+          BRANCH_PREFIX: FileSyncWithFork
           ORIGINAL_MESSAGE: true
           COMMIT_AS_PR_TITLE: true
           COMMIT_BODY: "Update file from source repo"
